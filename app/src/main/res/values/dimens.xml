@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_info_text_size">24sp</dimen>
+    <dimen name="analog_margin_top">20dp</dimen>
+    <dimen name="question">40sp</dimen>
+    <dimen name="answer">20sp</dimen>
+
+    <dimen name="answer_margin">10dp</dimen>
+
+    <dimen name="postTitle_margin_left">85dp</dimen>
+</resources>

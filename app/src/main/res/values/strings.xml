@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Tell Time</string>
+
+    <string name="default_question">Question 1/10</string>
+    <string name="default_score">Score: 0</string>
+    <string name="default_answer_1">10:00</string>
+    <string name="default_answer_2">11:00</string>
+    <string name="default_answer_3">12:00</string>
+    <string name="question">What time is it?</string>
+</resources>

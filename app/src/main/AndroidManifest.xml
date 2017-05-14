@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tandnd.telltime">
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,13 +13,22 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoTitle"
         android:name=".controller.AppController">
-        <activity android:name=".actitivty.MainGame"
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name=".activity.SplashScreen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider477806079217839"
+        android:name="com.facebook.FacebookContentProvider"
+        android:exported="true" />
+        <activity android:name=".activity.MainGame">
+        </activity>
+        <activity android:name=".activity.ReviewScreen">
         </activity>
     </application>
 

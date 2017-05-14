@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    tools:context=".actitivty.MainGame">
+    tools:context=".activity.MainGame">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -71,19 +71,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/default_answer_1"
-            android:textSize="@dimen/answer"/>
+            android:textSize="@dimen/answer"
+            android:enabled="false"/>
         <Button
             android:id="@+id/answer_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/default_answer_2"
-            android:textSize="@dimen/answer"/>
+            android:textSize="@dimen/answer"
+            android:enabled="false"/>
         <Button
             android:id="@+id/answer_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/default_answer_3"
-            android:textSize="@dimen/answer"/>
+            android:textSize="@dimen/answer"
+            android:enabled="false"/>
 
     </LinearLayout>
 
